@@ -30,6 +30,38 @@ img {
 header {
 	top: 0;
 	background-color: #D77A61;
-	height: 160px;
+	height: 120px;
     text-align: left;
+}
+
+/* Styles for nav area */
+nav {
+    height: 60px;
+    background-color: #3B1F2B;
+    width: 100%;
+}
+
+nav ul {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    line-height: 60px;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0em 1em;
+}
+
+nav li a:hover {
+    color: #EEBA0B;
 }
