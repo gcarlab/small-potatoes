@@ -10,15 +10,26 @@ body {
     background-color: #ffffff;
 }
 
-img {
+header img {
     display: inline-block;
-	margin: 0 auto;
+    max-width: 100%;
 }
 
 #logo {
     height: 100%;
+    float: left;
     vertical-align: middle;
     padding-left: 30px;
+}
+
+#cart {
+    float: right;
+    height: 100%;
+    padding: 2em;
+}
+
+.filter-white {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(298deg) brightness(102%) contrast(102%);
 }
 
 /* Style rule for box sizing applies to all elements */
@@ -31,7 +42,6 @@ header {
 	top: 0;
 	background-color: #D77A61;
 	height: 120px;
-    text-align: left;
 }
 
 /* Styles for nav area */
