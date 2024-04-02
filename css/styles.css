@@ -10,7 +10,7 @@ body {
     background-color: #ffffff;
 }
 
-header img {
+img {
     display: inline-block;
     max-width: 100%;
 }
@@ -66,6 +66,7 @@ nav li {
 }
 
 nav li a {
+    float: left;
     display: block;
     color: #fff;
     text-decoration: none;
@@ -74,4 +75,44 @@ nav li a {
 
 nav li a:hover {
     color: #EEBA0B;
+}
+
+/* Paragraph & Product Styles */
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    color: #000000;
+    padding: 1em;
+}
+
+#products {
+    max-width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.product {
+    width: 20%;
+    float: left;
+    margin: 0 2%;
+}
+
+.product .name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2em;
+}
+
+.product .price {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+.product img {
+    border-radius: 20px;
 }
