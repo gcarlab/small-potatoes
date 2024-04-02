@@ -7,7 +7,12 @@ body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, 
 
 /* Style rules for body and images */	
 body {
-    background-color: #ffffff;
+    background-color: #D77A61;
+}
+
+#container
+{
+    background-color: #fff;
 }
 
 img {
@@ -126,7 +131,8 @@ footer p {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.5em;
+    font-size: 2em;
+    text-align: center;
     color: #fff;
-    padding: 2em;
+    padding: 1em;
 }
