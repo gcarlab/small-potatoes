@@ -116,3 +116,17 @@ h1 {
 .product img {
     border-radius: 20px;
 }
+
+/* Footer Styles */
+footer {
+    background-color: #D77A61;
+}
+
+footer p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #fff;
+    padding: 2em;
+}
